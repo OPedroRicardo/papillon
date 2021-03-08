@@ -1,0 +1,53 @@
+.CarouselContainer {
+    width: 100%;
+    height: 600px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+.CarouselContainer a {
+    text-decoration: none;
+}
+
+.CarouselContainer .LeftArrow a {
+    position: absolute;
+    margin-top: 11rem;
+    left: 3rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 5rem;
+    text-decoration: none;
+    color: var(--black);
+    background: rgba(175, 163, 54, 0.5);
+    border-radius: 30px;
+    transition: 0.5s ease-in-out;
+    z-index: 1;
+}
+
+.CarouselContainer .LeftArrow a:hover{
+    transition: 0.5s ease-in-out;
+    font-size: 6rem;
+}
+
+.CarouselContainer .RightArrow a {
+    position: absolute;
+    margin-top: 11rem;
+    right: 3rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 5rem;
+    text-decoration: none;
+    color: var(--black);
+    background: rgba(175, 163, 54, 0.5);
+    border-radius: 30px;
+    transition: 0.5s ease-in-out;
+    z-index: 1;
+}
+
+.CarouselContainer .RightArrow a:hover{
+    transition: 0.5s ease-in-out;
+    font-size: 6rem;
+}

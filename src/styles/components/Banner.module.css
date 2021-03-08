@@ -1,0 +1,9 @@
+.bannerContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.photo {
+    width: 320px;
+}
