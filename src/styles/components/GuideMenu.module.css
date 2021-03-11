@@ -2,20 +2,22 @@
     top: 64px;
     left: 16px;
     position: absolute;
-    padding: 32px 0 32px 64px;
+    padding: 32px 0 32px 32px;
+    margin: 64px;
     background: var(--gold);
     border-radius: 16px;
     transition: 0.5s ease-in-out;
 }
 
 .GuideMenuContainer a {
+    display: block;
     text-decoration: none;
     color: var(--black);
     font-family: Poppins;
     font-weight: 500;
     font-size: 36px;
     line-height: 95%;
-    padding: 24px 0;
+    padding: 16px;
     border-radius: 16px 0 0 16px;
     transition: 250ms ease-in-out;
 }

@@ -5,7 +5,7 @@
 
 .RowContainer > h3 {
     padding-top: 0;
-    padding-left: 32px;
+    padding-left: 64px;
     font-family: 'Poppins', sans-serif;
     font-size: 36px;
     color: var(--dark-gold);
@@ -34,7 +34,7 @@
     font-size: 5rem;
     text-decoration: none;
     color: var(--black);
-    background: rgba(175, 163, 54, 0.5);
+    background: rgba( 218, 181, 70, 0.7);
     border-radius: 30px;
     transition: 0.5s ease-in-out;
     z-index: 1;
@@ -42,7 +42,8 @@
 
 .CarouselContainer .LeftArrow a:hover{
     transition: 0.5s ease-in-out;
-    font-size: 6rem;
+    font-size: 5.3rem;
+    background: rgba( 218, 181, 70, 1);
 }
 
 .CarouselContainer .RightArrow a {
@@ -54,7 +55,7 @@
     font-size: 5rem;
     text-decoration: none;
     color: var(--black);
-    background: rgba(175, 163, 54, 0.5);
+    background: rgba( 218, 181, 70, 0.7);
     border-radius: 30px;
     transition: 0.5s ease-in-out;
     z-index: 1;
@@ -62,5 +63,6 @@
 
 .CarouselContainer .RightArrow a:hover{
     transition: 0.5s ease-in-out;
-    font-size: 6rem;
+    font-size: 5.3rem;
+    background: rgba( 218, 181, 70, 1);
 }

@@ -1,0 +1,32 @@
+.FooterContainer {
+    height: 96px ;
+    width: 100%;
+    background: var(--gray);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+    color: var(--gold);
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 29px;
+    line-height: 85.5%;
+}
+
+.FooterContainer > span {
+    display: flex;
+    align-items: center;
+
+}
+
+.FooterContainer img {
+    width: 64px;
+    margin: 0 8px 0 8px;
+    transition: 0.5s ease-out;
+}
+
+.FooterContainer img:hover {
+    opacity: 0.5;
+    transition: 0.5s ease-out;
+}

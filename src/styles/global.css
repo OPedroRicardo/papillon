@@ -2,8 +2,8 @@
     --gray: #333;
     --light-gray: #555;
     --black: #121212;
-    --dark-gold: #827D1C;
-    --gold: #BCB859;
+    --dark-gold: #A8810C;
+    --gold: #DAB546;
     --ice: #F7F7F7;
 }
 
@@ -54,7 +54,3 @@ main > div > div > p {
     color: var(--light-gray);
     padding-top: 3rem;
 } 
-
-.products{
-    
-}
