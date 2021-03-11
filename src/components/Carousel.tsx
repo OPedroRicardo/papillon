@@ -4,6 +4,8 @@ import { Card } from '../components/Card';
 
 export function Carousel () {
     return (
+        <section className={style.RowContainer}>
+            <h3>Destaques</h3>
         <div className={style.CarouselContainer}>
             <div className={style.LeftArrow}><a href="#firstElement">&#60;</a></div>
             <a href="" id="firstElement"><Card /></a>
@@ -13,6 +15,6 @@ export function Carousel () {
             <a href="" id="lastElement"><Card /></a>
             <div className={style.RightArrow}><a href="#lastElement">&#62;</a></div>
         </div>
-        
+        </section>
     )
 }

@@ -1,8 +1,12 @@
 import Head from 'next/head';
 import React from 'react';
+
+import '../styles/global.module.css';
+
 import { Banner } from '../components/Banner';
-import { Carousel } from '../components/Carousel';
 import { Header } from '../components/Header';
+import { GuideMenuProvider } from '../contexts/GuideMenu';
+import { Carousel } from '../components/Carousel';
 
 export default function Home() {
   return (
@@ -16,7 +20,9 @@ export default function Home() {
         <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;1,700&display=swap" rel="stylesheet" />
       </Head>
       <main>
+        <GuideMenuProvider>
         <Header />
+        </GuideMenuProvider>
         <div>
           <div>
           <h1>Título <strong>curto</strong> <br/> top.</h1>
@@ -26,7 +32,8 @@ export default function Home() {
           <Banner />
         </div>
         </div>
-        <div>
+        <div className='products'>
+          <Carousel />
           <Carousel />
         </div>
       </main>
