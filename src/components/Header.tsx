@@ -1,5 +1,5 @@
 import { useContext } from 'react';
-import { GuideMenuContext } from '../contexts/GuideMenu';
+import { GuideMenuContext } from '../contexts/GuideMenuContext';
 
 import style from  '../styles/components/Header.module.css';
 import { GuideMenu } from './GuideMenu';
@@ -22,7 +22,10 @@ export function Header() {
             <button onClick={openMenu}><img src="burguer.svg" alt="Ícone do menu"/></button>
             )}
             <input type="search" placeholder="Pesquisar..." />
-            <img src="papillonLogotype.svg" alt="Papillon" />
+            {
+                <img src="papillonLogotype.svg" alt="Papillon" />
+            }
+            
         </div>
     )
 }

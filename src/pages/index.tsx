@@ -3,13 +3,15 @@ import React from 'react';
 
 import { Banner } from '../components/Banner';
 import { Header } from '../components/Header';
-import { GuideMenuProvider } from '../contexts/GuideMenu';
+import { GuideMenuProvider } from '../contexts/GuideMenuContext';
+import { MediaContextProvider } from '../contexts/MediaContext';
 import { Products } from '../components/Products';
 import { Footer } from '../components/Footer';
 
 export default function Home() {
   return (
     <div>
+      <MediaContextProvider>
       <Head>
         <title>Home | Papillion</title>
         <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
@@ -38,6 +40,7 @@ export default function Home() {
       <footer>
         <Footer />
       </footer>
+      </MediaContextProvider>
     </div>
   )
 }
