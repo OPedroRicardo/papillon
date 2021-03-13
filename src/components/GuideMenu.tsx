@@ -9,7 +9,7 @@ export function GuideMenu() {
         <br/>
         <a href="">Pedras e significados</a>
         <br/>
-        <a href="">Redes sociais</a>
+        <a href="#social">Redes sociais</a>
         </div>
     )
 }

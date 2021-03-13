@@ -1,6 +1,5 @@
 .RowContainer {
     overflow-x: hidden;
-
 }
 
 .RowContainer > h3 {
@@ -65,4 +64,22 @@
     transition: 0.5s ease-in-out;
     font-size: 5.3rem;
     background: rgba( 218, 181, 70, 1);
+}
+
+@media (max-width: 768px) {
+    .CarouselContainer {
+        overflow-x: scroll;
+    }
+
+    .CarouselContainer .LeftArrow a{
+        opacity: 0;
+        position: absolute;
+        left: -999999px;
+    }
+
+    .CarouselContainer .RightArrow a{
+        opacity: 0;
+        position: absolute;
+        right: -999999px;
+    }
 }

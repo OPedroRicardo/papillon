@@ -1,9 +1,40 @@
 .bannerContainer {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
+    flex-wrap: wrap;font-family: 'Poppins', sans-serif;
+    margin: 3rem 0 3rem 3rem;
+    width: 45%;
+    display: flex;
+    flex-direction: column;
 }
 
-.photo {
-    width: 320px;
+
+.bannerContainer h1 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 6.4rem;
+    line-height: 95%;
+    color: var(--dark-gold);
+}
+
+.bannerContainer h1 strong {
+        font-family: 'Playfair Display', serif;
+        font-weight: 700;
+        font-style: italic;
+        color: var(--gold);
+}
+
+.bannerContainer p {
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 2rem;
+        line-height: 95%;
+        color: var(--light-gray);
+        padding-top: 3rem;
+}
+
+.bannerContainer img {
+    padding-top: 2rem;
+    width: 20rem;
 }
