@@ -11,7 +11,6 @@ import { Footer } from '../components/Footer';
 export default function Home() {
   return (
     <div>
-      <MediaContextProvider>
       <Head>
         <title>Home | Papillion</title>
         <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
@@ -22,6 +21,7 @@ export default function Home() {
         <link rel="preconnect" href="https://fonts.gstatic.com" />
         <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;1,700&display=swap" rel="stylesheet" />
       </Head>
+      <MediaContextProvider>
       <header>
         <GuideMenuProvider>
           <Header />

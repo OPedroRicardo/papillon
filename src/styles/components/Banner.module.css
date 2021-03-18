@@ -2,11 +2,9 @@
     display: flex;
     align-items: center;
     justify-content: space-around;
-    flex-wrap: wrap;font-family: 'Poppins', sans-serif;
-    margin: 3rem 0 3rem 3rem;
-    width: 45%;
+    font-family: 'Poppins', sans-serif;
+    margin: 3rem;
     display: flex;
-    flex-direction: column;
 }
 
 
@@ -25,6 +23,7 @@
 }
 
 .bannerContainer p {
+    width: 70%;
         font-family: Poppins;
         font-style: normal;
         font-weight: bold;
@@ -36,5 +35,11 @@
 
 .bannerContainer img {
     padding-top: 2rem;
-    width: 20rem;
+    width: 30rem;
+}
+
+@media (max-width: 768px) {
+    .bannerContainer {
+        flex-wrap: wrap;
+    }
 }

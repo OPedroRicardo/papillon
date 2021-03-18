@@ -6,12 +6,11 @@ interface MediaContextData {
 
 export const MediaContext = createContext({} as MediaContextData);
 
-export function GuideMenuProvider({ children, ...rest }) {
+export function MediaContextProvider({ children, ...rest }) {
     const [mediaWidth, setMediaWidth] = useState(window.innerWidth);
 
-    function takeWindowWidth() {
+    () => {
         setMediaWidth(window.innerWidth);
-        return mediaWidth;
     }
 
     return(
